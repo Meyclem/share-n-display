@@ -1,4 +1,8 @@
-# Welcome to Remix + Vite!
+# Dashboard
+
+Dashboard is the application responsible for managing the server configuration and users settings.
+
+## Welcome to Remix + Vite!
 
 📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
 
@@ -29,7 +33,7 @@ npm run start
 
 ## Deployment
 
-> [!WARNING]  
+> [!WARNING]
 > Cloudflare does _not_ use `wrangler.toml` to configure deployment bindings.
 > You **MUST** [configure deployment bindings manually in the Cloudflare dashboard][bindings].
 
