@@ -1,0 +1,11 @@
+{
+  "name": "obsidian-share-plugin",
+  "version": "0.0.1",
+  "description": "Obsidian Plugin to updload HTML file to the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meyclem",
+  "license": "ISC"
+}
