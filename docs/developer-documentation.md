@@ -14,7 +14,7 @@ Obsidian Share Plugin | 🫥
 
 ## Architecture
 
-The project uses [Npm Workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) and is compose of several parts:
+The project uses [Npm Workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces) and is made of several parts:
 - An Obsidian plugin that allows to share a note from an Obsidian vault. It is designed through the [Obsidian plugin documentation](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 - A collection of Cloudflare Workers that handle the different parts of the project. Each worker is a separate application that can be deployed independently. They are designed through the [Cloudflare Workers documentation](https://developers.cloudflare.com/workers/).
   Each worker has its own README file with more detailed information:
@@ -22,7 +22,6 @@ The project uses [Npm Workspaces](https://docs.npmjs.com/cli/v7/using-npm/worksp
     - [Upload](/workers/upload/README.md): the worker responsible for uploading files to the server.
     - [Display](/workers/display/README.md): the application that requests and serves the shared note.
     - [Cleaner](/workers/cleaner/README.md): the worker responsible for cleaning up the server. It will delete files after a certain amount of time.
-    - [Obsidian Share Plugin](/obsidian-share-plugin/README.md): the Obsidian plugin that allows to share a note from an Obsidian vault.
 
 ## Setup
 
